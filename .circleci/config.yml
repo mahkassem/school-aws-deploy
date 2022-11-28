@@ -6,7 +6,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: circleci/base:stable
+      - image: cimg/base:stable
     steps:
       - node/install:
           node-version: "16.18.1"
