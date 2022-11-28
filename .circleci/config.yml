@@ -15,13 +15,13 @@ jobs:
       - checkout
       - run:
           name: Install server dependencies
-          command: npm install:server
+          command: npm run install:server
       - run:
           name: Build server
           command: npm run build:server
       - run:
           name: Test server
-          command: npm test:server
+          command: npm run test:server
       - run:
           name: Deploy server to AWS eb
           command: npm run deploy:server
