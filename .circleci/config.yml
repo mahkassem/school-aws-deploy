@@ -25,3 +25,12 @@ jobs:
       - run:
           name: Deploy website to AWS s3
           command: npm run deploy:website
+          
+workflows:
+    build-deploy:
+      jobs:
+        - build:
+            filters:
+              branches:
+                only:
+                  - main

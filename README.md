@@ -1,0 +1,1 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/mahkassem/school-aws-deploy/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/mahkassem/school-aws-deploy/tree/master)
