@@ -1,0 +1,15 @@
+{
+    "Id": "PublicGetObject",
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "GetObject",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Effect": "Allow",
+            "Resource": "arn:aws:s3:::udacity2811/*",
+            "Principal": "*"
+        }
+    ]
+}

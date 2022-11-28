@@ -1,0 +1,12 @@
+# Bundles
+dist
+node_modules
+archive.zip
+
+# Secrets
+.vscode
+.env
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

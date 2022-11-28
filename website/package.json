@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh"
+    }
+}
