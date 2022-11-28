@@ -20,9 +20,6 @@ jobs:
           name: Build server
           command: npm run build:server
       - run:
-          name: Test server
-          command: npm run test:server
-      - run:
           name: Deploy server to AWS eb
           command: npm run deploy:server
       - run:
