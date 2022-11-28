@@ -4,6 +4,6 @@
         "build:server": "cd server && npm run build",
         "test:server": "cd server && npm run test",
         "deploy:server": "cd server && npm run deploy",
-        "deploy:webiste": "cd webiste && npm run deploy"
+        "deploy:webiste": "cd website && npm run deploy"
     }
 }
