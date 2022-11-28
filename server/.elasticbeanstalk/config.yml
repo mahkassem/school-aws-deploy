@@ -1,0 +1,21 @@
+branch-defaults:
+  default:
+    environment: Udacity
+environment-defaults:
+  Udacity:
+    branch: null
+    repository: null
+deploy:
+  artifact: .\archive.zip
+global:
+  application_name: Udacity
+  default_ec2_keyname: aws-eb
+  default_platform: Node.js 16 running on 64bit Amazon Linux 2
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: default
+  sc: null
+  workspace_type: Application
